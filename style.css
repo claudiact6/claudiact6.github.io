@@ -1,6 +1,4 @@
-* {
 
-}
 
 header {
     padding: 10px;
@@ -8,15 +6,15 @@ header {
 }
 .pagetitle {
     float: left;
-    width: 30%
-    text-align:center;
-    color:white;
-}
+    width: 30%;
+    text-align: center;
+    color: white;
+    }
 
 .menu {
-    color:white;
+    color: white;
     text-align: right;
-    width: 70%
+    width: 70%;
 }
 
 .menu a {
