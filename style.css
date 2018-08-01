@@ -1,22 +1,60 @@
+h1 {
+    font-size: 2em;
+}
 
+p {
+    line-height: 1.1em;
+    padding-bottom: 15px;
+}
 
 header {
     padding: 10px;
-    background:darkblue;
+    background:navy;
+    float: left;
+    width: 100%;
+}
+
+.contentwrap {
+    background: url('assets/palm-leaf.png');
+    height: 100%;
 }
 .pagetitle {
     float: left;
-    width: 30%;
+    width: 60%;
     text-align: center;
     color: white;
     }
 
 .menu {
     color: white;
-    text-align: right;
-    width: 70%;
+    text-align: left;
+    width: 40%;
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
 }
 
 .menu a {
-    text-decoration:none;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background:white;
+    width: 60%;
+}
+
+.fox {
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+.footer {
+    background: navy;
+    padding: 20px 0px;
+    height: 50px;
+    text-align: center;
 }
