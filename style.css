@@ -1,0 +1,24 @@
+* {
+
+}
+
+header {
+    padding: 10px;
+    background:darkblue;
+}
+.pagetitle {
+    float: left;
+    width: 30%
+    text-align:center;
+    color:white;
+}
+
+.menu {
+    color:white;
+    text-align: right;
+    width: 70%
+}
+
+.menu a {
+    text-decoration:none;
+}
