@@ -1,62 +1,40 @@
-h1 {
+body {
+    background: #acd0c0;
+}
+
+h1,h2 {
     font-size: 2em;
+
+}
+
+h1 {
+    color: white;
+}
+
+h2 { 
+    color: #4f6457;
 }
 
 p {
     line-height: 1.1em;
-    padding-bottom: 15px;
+    color: #4f6457;
 }
 
-header {
-    padding: 10px;
-    background:navy;
-    float: left;
-    width: 100%;
+a {
+    color: #4f6457;
 }
 
-.contentwrap {
-    background: url('assets/palm-leaf.png');
-    height: 100%;
-}
-.pagetitle {
-    float: left;
-    width: 60%;
-    text-align: center;
-    color: white;
-    }
-
-.menu {
-    color: white;
-    text-align: left;
-    width: 40%;
-    float: left;
-}
-
-.menu ul {
-    list-style-type: none;
-}
-
-.menu a {
-    text-decoration: none;
-    color: white;
-}
-
-.main {
+main {
     background:white;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2% 3%;
 }
 
-.fox {
-    height: 200px;
-    float: left;
-    padding-right: 10px;
+.bg-sky {
+    background: #75b1a9;
 }
 
-.footer {
-    background: navy;
-    padding: 20px 0px;
-    height: 50px;
-    text-align: center;
+.border-bottom-sunglow {
+    border-bottom: 3px solid #d9b44a;
 }
