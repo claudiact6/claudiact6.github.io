@@ -1,5 +1,6 @@
 body {
-    background: #acd0c0;
+    background: #A6C4DC;
+    font-family: 'Hind', sans-serif;
 }
 
 h1,h2 {
@@ -7,21 +8,17 @@ h1,h2 {
 
 }
 
-h1 {
-    color: white;
-}
-
 h2 { 
-    color: #4f6457;
+    color: #9363A3;
 }
 
 p {
     line-height: 1.1em;
-    color: #4f6457;
+    color: #216199;
 }
 
 a {
-    color: #4f6457;
+    color: #216199;
 }
 
 main {
@@ -37,4 +34,58 @@ main {
 
 .border-bottom-sunglow {
     border-bottom: 3px solid #d9b44a;
+}
+
+.jumbotron-fluid {
+    min-height: 100vh;
+    background: none;
+    position: relative;
+
+}
+
+.link-white a {
+    color:white;
+    text-decoration: none;
+}
+
+.link-white a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+#jumbo-bg {
+    background-image: url('assets/2350.jpg');
+    background-size: cover;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+
+img, figure {
+    max-width: 100%;
+}
+
+main {
+    min-height: 100vh;  
+}
+  
+footer {
+    background-color: #708394;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
